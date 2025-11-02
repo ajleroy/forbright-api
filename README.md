@@ -1,4 +1,7 @@
 <b>Notes about assignment.</b>
+
+<br/><br/>
+The S3 dummy endpoint does not actually allow data to be written so I am not sure the intention is to run this microservice as a test but in order for it to be functional - that would need to reference a correct S3 endpoint and configured with the valid AWS credentials.
 <br/><br/>
 The SQL queries were implemented using a ORM Repository that attempting to connect to a fake PostGres instance.
 <br/><br/>
